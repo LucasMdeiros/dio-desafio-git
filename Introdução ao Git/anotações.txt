@@ -1,0 +1,17 @@
+Passo a passo gerando SSH Key:
+-entrar git bash
+-ssh-keygen -t ed25519 -C email@usado
+-escolher onde deixar o ssh (não alterar)
+-escolher senha
+- cd /c/users/Lucas/.ssh/
+- cat id_ed25519.pub
+	copiar a chave e colar no github
+-chave criada!
+
+
+-voltar no git bash
+- cd /c/users/Lucas/.ssh/
+-eval $(ssh-agent -s)
+- ssh-add id_ed25519
+- escolher senha
+- Pronto!
