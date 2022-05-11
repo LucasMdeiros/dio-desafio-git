@@ -15,3 +15,10 @@ Passo a passo gerando SSH Key:
 - ssh-add id_ed25519
 - escolher senha
 - Pronto!
+
+
+
+Passo a passo enviando alterações pro git
+- git add .
+- git commit -m "nome do commit"
+- git push origin main
